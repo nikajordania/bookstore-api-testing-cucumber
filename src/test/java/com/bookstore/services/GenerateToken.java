@@ -3,7 +3,7 @@ package com.bookstore.services;
 import com.bookstore.utilities.Globals;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
-import org.junit.Assert;
+import org.testng.Assert;
 
 public class GenerateToken extends Globals {
 

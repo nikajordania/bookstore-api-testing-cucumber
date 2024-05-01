@@ -4,7 +4,7 @@ import com.bookstore.utilities.Globals;
 import com.github.javafaker.Faker;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
-import org.junit.Assert;
+import org.testng.Assert;
 
 import java.util.HashMap;
 import java.util.Map;

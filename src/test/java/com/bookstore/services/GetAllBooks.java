@@ -4,7 +4,7 @@ import com.bookstore.utilities.Globals;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import org.junit.Assert;
+import org.testng.Assert;
 
 public class GetAllBooks extends Globals {
 

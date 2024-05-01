@@ -1,10 +1,8 @@
 package com.bookstore.runners;
 
-import io.cucumber.junit.Cucumber;
-import io.cucumber.junit.CucumberOptions;
-import org.junit.runner.RunWith;
+import io.cucumber.testng.CucumberOptions;
+import io.cucumber.testng.AbstractTestNGCucumberTests;
 
-@RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "com/bookstore/step_defs",
@@ -14,5 +12,5 @@ import org.junit.runner.RunWith;
         dryRun = false,
         tags = "@wip"
 )
-public class CukesRunner {
+public class CukesRunner extends AbstractTestNGCucumberTests {
 }
